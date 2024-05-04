@@ -17,6 +17,6 @@ inputBox.onkeyup = function () {
 function display(result) {
     const content = result.map((list) => {
         return "<li>" + list + "</li>";
-    }).join(""); // Joining the array elements into a single string
+    }).join(""); 
     resultsBox.innerHTML = "<ul>" + content + "</ul>";
 }
